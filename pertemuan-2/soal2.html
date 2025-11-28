@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   const str = "kodok";
+
+      //   function isPalindrome(str) {
+      //     const reverseStr = str.split("");
+      //     console.log(reverseStr);
+      //     const reverseStr2 = str.split("").reverse();
+      //     console.log(reverseStr2);
+      //     const reverseStr3 = str.split("").reverse().join("");
+      //     console.log(reverseStr3);
+      //     return str === reverseStr3;
+      //   }
+
+      //   console.log(isPalindrome(str));
+      const str = "kodok";
+
+      function isPalindrome(str) {
+        const reverseStr = str.split("").reverse().join("");
+
+        return str == reverseStr;
+      }
+
+      console.log(isPalindrome(str));
+    </script>
+  </body>
+</html>
